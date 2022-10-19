@@ -1,3 +1,16 @@
 .hidden {
   display: hidden;
 }
+
+.text-size1 {
+  font-size: large;
+}
+
+.text-size2 {
+  font-size: larger;
+}
+
+.text-size3 {
+  font-size: x-large;
+}
+

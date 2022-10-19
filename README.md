@@ -1,17 +1,27 @@
-# TEMPLATE
+# Shouting Machine
 
-#### By Kirsten Opstad
+#### By Kirsten Opstad & Ruben Giosa
 
-#### A template for writing a README.md
+#### A shouting machine
 
 ## Technologies Used
 
-* Technology1 
-* Technology2 
-* Technology3
+* HTML 
+* CSS 
+* Javascript
 
 ## Description
 
+### Objectives
+
+Create a page that asks the user to type something into a field, and when they submit the form, have the page say it back to them in all uppercase. Use console.log once — either to try it out or to debug an issue.
+
+For an extra challenge include this functionality as well: an increasing font size with every form submission. This is tricky! Think about where you could save a variable for font size in your code that won't get erased after each form submission. Also, you'll need to consider that you'll be working with strings and numbers:
+
+a number for the font size so that you can increase the number on each form submission.
+a string for the actual value that you set for the inline style for text size.
+
+<!-- 
 This template includes placeholders for:
 
 [x] Screenshots
@@ -23,7 +33,7 @@ This template includes placeholders for:
 [x] Goals
 1. Goal1
 2. Goal2
-3. Goal3
+3. Goal3 -->
 
 ## Setup/Installation Requirements
 
@@ -31,7 +41,7 @@ This template includes placeholders for:
 * Navigate to the top level of the directory.
 * Open index.html in your browser.
 
-KO Ask Yourself:
+<!-- KO Ask Yourself:
 
 [x] Do I need to run a server? 
 
@@ -39,7 +49,7 @@ KO Ask Yourself:
 
 [x] Is there other code this application depends on?
 
-_{Epicodus recommends deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_{Epicodus recommends deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_ -->
 
 ## Known Bugs
 
@@ -50,6 +60,24 @@ _{Epicodus recommends deleting the project from your desktop, re-cloning the pro
 
 ## License
 
-[Choose License](https://choosealicense.com/)
+MIT License
 
-Copyright (c) 2022 Kirsten Opstad
+Copyright (c) 2022 Kirsten Opstad & Ruben Giosa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
